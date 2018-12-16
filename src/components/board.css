@@ -1,0 +1,14 @@
+:root {
+    --rows: 8;
+    --size: 50px;
+
+}
+
+.board {
+    width: var(--rows)*var(--size);
+}
+
+.error-msg {
+    color: red;
+    font-weight: bold;
+}
